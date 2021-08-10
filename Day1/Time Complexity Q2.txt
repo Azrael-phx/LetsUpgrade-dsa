@@ -1,0 +1,19 @@
+Question 2 :
+
+Write the output for the following recursive code snippet for n = 3:
+	void fun(int n)
+	{
+	if(n > 0)
+	{
+	cout<<n:
+	fun(n - 1);
+	cout<<n;
+	}
+	}
+
+Answer:
+	Output - 321123	
+Explaination: n=3, fun(3)                       
+			fun(2) (2>0)            
+			fun(1) (1>0)          
+			fun(0) (0!>0) stops
